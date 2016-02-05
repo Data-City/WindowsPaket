@@ -39,7 +39,7 @@ permissions:
 
 # Not authenticated user can only GET any resource under the /publicdb URI
     - role: $unauthenticated
-      predicate: path-prefix[path="/publicdb/"] and method[value="GET"]
+      predicate: path-prefix[path="/"] and method[value="GET"]
 
 # Users with role 'users' can GET any collection or document resource (excluding dbs)
     - role: users
