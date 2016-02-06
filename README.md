@@ -1,15 +1,14 @@
 # WindowsPaket
 ## Voraussetzungen:
 * Node.js und npm installiert (https://nodejs.org)
-* Ordner /bin liegt im System-Pfad
 * Das Node-Modul *grunt* ist installiert (http://gruntjs.com/)
-* Java 8 in Path-Systemvariable eingestellt
+* Der Java \bin Ordner ist in der Umgebungsvariable angelegt
+* !!WICHTIG!! der Java \bin Ordner muss als Umgebungsvariable an erster Stelle stehen und die Dateien java.exe und javac.exe müssen in dem Ordner liegen
+* Der Ordner \nodejs ist in der Umgebungsvariable angelegt
+* Der Ordner MongoDB\Server\3.2\bin ist in der Umgebungsvariable angelegt
 
 ## Install
-* Klicken auf install.bat
+* WindowsPaket als ZIP-Datei herunterladen und entpacken
 
 ## Start Datacity
-* Klicken auf startDataCity.bat
-
-## use admin-tool
-* Klicken erst auf startMongod.bat
+* Auf startDataCity.bat klicken
