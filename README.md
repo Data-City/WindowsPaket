@@ -7,8 +7,16 @@
 * Der Ordner \nodejs ist in der Umgebungsvariable angelegt
 * Der Ordner \bin in WindowsPaket ist in der Umgebungsvariable angelegt
 
-## Install
-* WindowsPaket als ZIP-Datei herunterladen und entpacken
-
 ## Start Datacity
 * Auf startDataCity.bat klicken
+
+## Datei Import
+* Abhängigkeit zu installieren: auf install.bat klicken
+* Start Datenbank server: auf startMonod.bat klicken
+* Datei Import: Auf Import.bat klicken
+
+## Update
+version:1.1.2
+* Die Datensätze werden jetzt in production gespeichert
+* Import.bat hinzufügen
+
