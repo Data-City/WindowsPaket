@@ -1,9 +1,9 @@
 ﻿# WindowsPaket
 ## Voraussetzungen:
 * Node.js und npm sind installiert (https://nodejs.org)
-* Das Node-Modul *grunt* ist installiert (http://gruntjs.com/)
-* Der Java \bin Ordner ist in der Umgebungsvariable angelegt
 * Der Ordner \nodejs ist in der Umgebungsvariable angelegt
+* Das Node-Modul *grunt* ist installiert (http://gruntjs.com/getting-started)
+* Der Java \bin Ordner ist in der Umgebungsvariable angelegt
 * Der Ordner \bin in WindowsPaket ist in der Umgebungsvariable angelegt
 * Abhängigkeit installieren: auf install.bat klicken
 
