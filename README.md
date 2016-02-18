@@ -1,11 +1,7 @@
 ﻿# WindowsPaket
 ## Voraussetzungen:
-* Node.js und npm sind installiert (https://nodejs.org)
-* Der Ordner \nodejs ist in der Umgebungsvariable angelegt
-* Das Node-Modul *grunt* ist installiert (http://gruntjs.com/getting-started)
 * Der Java \bin Ordner ist in der Umgebungsvariable angelegt
 * Der Ordner \bin in WindowsPaket ist in der Umgebungsvariable angelegt
-* Abhängigkeit installieren: auf install.bat klicken
 
 ## Start Datacity
 * Auf startDataCity.bat klicken
@@ -19,5 +15,13 @@
 version:1.1.2
 * Die Datensätze werden jetzt in production gespeichert
 * Import.bat hinzugefügt
+ 
+
 version:1.1.3
 * Batch Dateien überarbeitet
+
+
+version:1.1.4
+* Node.js und grunt werden im Paket beinhaltet
+* Die Funktion von initDB wurde in grunt.file geschrieben
+* admin Datenbank wurde gelöscht
