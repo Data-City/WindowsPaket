@@ -5,14 +5,14 @@
 * Der Java \bin Ordner ist in der Umgebungsvariable angelegt
 * Der Ordner \nodejs ist in der Umgebungsvariable angelegt
 * Der Ordner \bin in WindowsPaket ist in der Umgebungsvariable angelegt
+* Abhängigkeit installieren: auf install.bat klicken
 
 ## Start Datacity
 * Auf startDataCity.bat klicken
 
 ## Datei Import
-* (Schritt 1 und 2 optional für den Fall, dass startDatacity nicht schon läuft)
-* Abhängigkeit installieren: auf install.bat klicken
-* Datenbank starten: auf startMonod.bat klicken
+* (Schritt 1 optional für den Fall, dass startDatacity nicht schon läuft)
+* Datenbank starten: auf startMongod.bat klicken
 * Dateien importortieren: Auf Import.bat klicken
 
 ## Update
