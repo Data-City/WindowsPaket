@@ -25,3 +25,6 @@ version:1.1.4
 * Node.js und grunt werden im Paket beinhaltet
 * Die Funktion von initDB wurde in grunt.file geschrieben
 * admin Datenbank wurde gelöscht
+
+version:1.1.5
+* dist Ordner zu aktualisieren
