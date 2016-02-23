@@ -8,8 +8,8 @@
 
 ## Datei Import
 * (Schritt 1 optional für den Fall, dass startDatacity nicht schon läuft)
-* Datenbank starten: auf startMongod.bat klicken
-* Dateien importortieren: Auf Import.bat klicken
+* Datenbank starten: Auf startMongod.bat klicken
+* Dateien importieren: Auf Import.bat klicken
 
 ## Update
 version:1.1.2
@@ -22,9 +22,9 @@ version:1.1.3
 
 
 version:1.1.4
-* Node.js und grunt werden im Paket beinhaltet
-* Die Funktion von initDB wurde in grunt.file geschrieben
+* Node.js und grunt sind im Paket miteingebunden
+* Die Funktion initDB wurde in die Gruntfile geschrieben
 * admin Datenbank wurde gelöscht
 
 version:1.1.5
-* dist Ordner zu aktualisieren
+* dist Ordner aktualisiert
