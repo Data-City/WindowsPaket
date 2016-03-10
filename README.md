@@ -28,3 +28,7 @@ version:1.1.4
 
 version:1.1.5
 * dist Ordner aktualisiert
+
+version:1.1.6
+* dist Ordner aktualisiert
+* Laufen bat file mit grunt watch im Hintergrund
