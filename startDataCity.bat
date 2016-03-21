@@ -6,7 +6,7 @@ mshta vbscript:createobject("wscript.shell").run("%~nx0 h",0)(window.close)&&exi
 set restheartHome=%~dp0\restheart-1.1.3
 set mongodbBinHome=%~dp0\bin
 set datacityHome=%~dp0
-set admintoolHome=%~dp0\admin-tool
+
 
 echo Ueberpruefen, ob ansichten Collection in einstellungen ansichten schon erstellt wurde
 IF EXIST "%datacityHome%\DBInitialized" GOTO JA
@@ -27,7 +27,7 @@ echo Start Webseite...
 start http://localhost:8080/datacity
 
 echo Start grunt watch...
-cd "%admintoolHome%"
+cd "%mongodbBinHome%"
 start /b grunt watch
 ping 127.0.0.1 -n 3 -w 1000 > nul
 

@@ -1,9 +1,9 @@
 @echo off
-set admintoolHome=%~dp0\admin-tool
+
 set mongodbBinHome=%~dp0\bin
 set datacityHome=%~dp0
 
-echo Die Import Datei muss im \admin-tool Ordner liegen
+echo Die Import Datei muss im \bin Ordner liegen
 echo Start mongod...
 cd "%mongodbBinHome%" 
 start mongod.exe --dbpath %datacityhome%\data\db
@@ -23,13 +23,13 @@ echo Welche Verbindungsdatei moechten Sie importieren? Bitte geben Sie den Name 
 set /p Verbindungsdatei=
 
 echo Die Datei wird importiert...
-cd "%admintoolHome%"
+cd "%mongodbBinHome%"
 call grunt import:%ImportDatei%:%Collectionsname%:%Verbindungsdatei%
 goto END
 
 :NEIN
 echo Die Datei zu importieren
-cd "%admintoolHome%"
+cd "%mongodbBinHome%"
 call grunt import:%ImportDatei%:%Collectionsname%
 goto END
 
