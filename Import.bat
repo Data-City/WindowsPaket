@@ -28,7 +28,7 @@ call grunt import:%ImportDatei%:%Collectionsname%:%Verbindungsdatei%
 goto END
 
 :NEIN
-echo Die Datei zu importieren
+echo Die Datei wird importiert...
 cd "%mongodbBinHome%"
 call grunt import:%ImportDatei%:%Collectionsname%
 goto END
